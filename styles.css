@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html, body, head{
+    margin: 0px;
+}
+header, h1{
+    color:gray;
+    margin: 0px;
+    margin-top:30px;
+}
+h1, h2{
+    font-family: 'Staatliches', cursive;
+    text-align:center;
+}
+body{
+    background-color: lightblue;
+}
+.right{
+    background-color: white;
+    width:800px;
+    margin:auto;
+    margin-right:250px;
+    margin-top:50px;
+    border: 1px solid black;
+    text-align:center;
+    float:right;
+}
+.left{
+    background-color: white;
+    width:200px;
+    margin:auto;
+    margin-top:50px;
+    border: 1px solid black;
+    text-align:center;
+    float:left;
+    margin-left:100px;
+    color:black;
+    height:400px;
+}
+.left ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    margin-top:20px;
+}
+.left-li{
+    line-height: 30px;
+}
+.left-li:hover{
+    color:red;
+}
+
